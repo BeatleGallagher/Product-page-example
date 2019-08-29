@@ -1,0 +1,102 @@
+*{
+    font-family: levenim mt;
+}
+img{
+    width: 100%;
+}
+div.info-section{
+   text-align: right;
+   padding:20% 15%;
+}
+/* CSS ANIMATIONS  EFFECT ON HUAWEI TEXT */
+
+#letter-H{
+    animation: fade-in 2s ;
+}
+#letter-U{
+    animation: fade-in 2.5s ;
+}
+#letter-A{
+    animation: fade-in 3s ;
+}
+#letter-W{
+     animation: fade-in 3.5s ;
+}
+#letter-E{
+    animation: fade-in 4s ;
+}
+#letter-I{
+    animation: fade-in 4.5s ;
+}
+
+@keyframes fade-in{
+    0%{opacity:0;text-shadow: 2px 2px 2px grey;}
+	50%{text-shadow: -2px -3px 2px blue;color:#BCB8B8;}
+	100%{opacity:1;text-shadow: 2px 2px 2px grey;}
+}
+
+nav.navbar{
+    background: black !important;
+}
+
+/* MORE  INFO DIV STYLE */
+div#more-Info{
+ margin-top:15%; 
+ width: 100%;
+ height: auto; 
+ text-align: right;
+}
+h4{
+    margin-bottom:5%; 
+}
+.table{
+    text-align: right;
+    line-height: 0.5rem;
+}
+
+/* FEATURES SECTION DIV  STYLE*/
+div#features-sec ul{
+    list-style-type: none;
+    margin-top:15%; 
+    width: 100%;
+    height: auto; 
+    text-align: right;
+    line-height: 3rem;
+}
+
+/* PRICE SECTION DIV STYLE */
+div#price-sec{
+ margin-top:15%; 
+ width: 100%;
+ height: auto; 
+ text-align: right;
+}
+
+@media (max-width: 991px) { 
+    .table{
+        text-align: center;
+        font-size: 90%;
+    }
+    h4{
+        text-align: center;
+    }
+    div#features-sec ul{
+        text-align: center;
+    }
+
+    div#price-sec{
+        text-align: center;
+    }
+}
+@media (min-width: 992px) { 
+    .table{
+        text-align: center;
+        font-size: 90%;
+    }
+    h4{
+        text-align: center;
+    }
+
+   
+}
+

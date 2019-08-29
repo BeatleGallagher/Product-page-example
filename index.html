@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Product Page Example</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="features()" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="priceDisplay()" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="contactDisplay()" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" col-lg-6 col-md-12">
+                <div id="info-sec" class="info-section">
+                    <h1>
+                        <span id="letter-H">H</span>
+                        <span id="letter-U">U</span>
+                        <span id="letter-A">A</span>
+                        <span id="letter-W">W</span>
+                        <span id="letter-E">E</span>
+                        <span id="letter-I">I</span>
+                    </h1>
+                    <h2>OUR NEW MODEL</h2>
+                    <p>Welcome to our world!</p>
+                    <button type="button" onclick="moreInfo()" class="btn btn-outline-secondary btn-lg">More
+                        Info</button>
+                </div>
+
+                <!-- DIVS TO DISPLAY ALL THE BUTTONS AND LINKS INFO WHEN CLICKED -->
+                <div id="more-Info"></div>
+                <div id="features-sec"></div>
+                <div id="price-sec"></div>
+
+            </div>
+            <div class="image  col-lg-6 col-md-12">
+                <img src="https://huaweistore.co.za/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/h/u/huawei_p_smart_2019_blue_images_9396113293_2.jpg"
+                    alt="image of phone latest model">
+            </div>
+        </div>
+    </div>
+
+    <!-- MY OWN JAVASCRIPT FILE -->
+    <script src="javascript.js"></script>
+
+    <!--BOOTSTRAP JAVASCRIPT FILES -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
